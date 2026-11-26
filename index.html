@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#141210" />
+  <meta name="description" content="Estate Kitchen on Alaye Street, Ho — authentic Ghanaian classics, wood-fired style pizzas, shawarma and event catering. Order for Ho delivery or reserve a table." />
+  <meta property="og:title" content="Estate Kitchen — Authentic Ghanaian Flavours in Ho" />
+  <meta property="og:description" content="Weekend fufu specials, pizzas, shawarma and fast delivery across Ho. Order on WhatsApp." />
+  <meta property="og:type" content="restaurant" />
+  <title>Estate Kitchen | Ghanaian Flavours & Continental Dining in Ho</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="skip-link" href="#menu">Skip to menu</a>
+
+  <!-- Top info bar -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <p class="topbar-text">
+        <span class="topbar-item">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          Alaye Street, Ho
+        </span>
+        <span class="dot" aria-hidden="true">•</span>
+        <span class="topbar-item">Open Tue–Sun: 9:30 AM – 10:00 PM</span>
+        <span class="dot" aria-hidden="true">•</span>
+        <span class="topbar-item">Order / Reservations: <a href="tel:+233553576121">055 357 6121</a></span>
+      </p>
+    </div>
+  </div>
+
+  <!-- Sticky navbar -->
+  <header class="navbar" id="top">
+    <div class="container navbar-inner">
+      <a class="logo" href="#top" aria-label="Estate Kitchen home">
+        <span class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32"><path d="M5 14 16 5l11 9"/><path d="M8 13v13h16V13"/><path d="M13 26v-7h6v7"/></svg>
+        </span>
+        <span class="logo-text">ESTATE <span>KITCHEN</span></span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+        <a href="#menu">Menu</a>
+        <a href="#specials">Weekend Specials</a>
+        <a href="#catering">Catering &amp; Tables</a>
+        <a href="#location">Location</a>
+        <button class="bag-button" id="bagBtn" type="button" aria-label="Open order bag">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8h12l1 12H5L6 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg>
+          <span>Order Bag</span>
+          <span class="bag-paren" aria-hidden="true">(</span>
+          <span class="bag-count" id="bagCount">0</span>
+          <span class="bag-paren" aria-hidden="true">)</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="hero-badge">
+            <span class="stars" aria-hidden="true">★</span>
+            <span><strong>4.5★ Rated</strong> (220+ Reviews) <span class="badge-sep">•</span> Alaye Street, Ho</span>
+          </div>
+
+          <h1 id="heroTitle">Authentic Ghanaian Flavours &amp; Continental Dining in Ho.</h1>
+
+          <p class="hero-sub">
+            From weekend fufu specials and wood-fired style pizzas to juicy shawarma and fast delivery across Ho — every plate is made fresh, packed hot and full of flavour.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#menu">
+              Explore Menu &amp; Order
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn-ghost" href="#catering">Reserve a Table</a>
+          </div>
+
+          <ul class="trust-list" aria-label="Why choose Estate Kitchen">
+            <li>
+              <span class="trust-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 21c-5-3-8-7-8-12a8 8 0 0 1 16 0c0 5-3 9-8 12Z"/><path d="M12 21V9M12 14c3 0 4-2 4-4M12 12C9 12 8 10 8 8"/></svg>
+              </span>
+              <span><strong>Fresh Daily Prep</strong><small>Prepared with care, every day</small></span>
+            </li>
+            <li>
+              <span class="trust-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M3 16h11V7H3v9Z"/><path d="M14 10h4l3 3v3h-7v-6Z"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg>
+              </span>
+              <span><strong>Dine-In &amp; Ho Delivery</strong><small>Enjoy here or we bring it to you</small></span>
+            </li>
+            <li>
+              <span class="trust-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 9h16v11H4V9Z"/><path d="M8 9V5h8v4M8 14h8M8 17h5"/></svg>
+              </span>
+              <span><strong>Event Catering</strong><small>Parties, offices &amp; gatherings</small></span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="hero-image-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"
+              alt="A generous feast of freshly prepared dishes at the table"
+              width="1200" height="1400" fetchpriority="high" />
+          </div>
+          <div class="hero-float">
+            <span class="float-icon" aria-hidden="true">🔥</span>
+            <span><strong>Weekend Fufu &amp; Tilapia Specials</strong><small>Dine-In or Delivery</small></span>
+          </div>
+          <div class="hero-rating" aria-hidden="true">
+            <span>4.5</span><small>★ ★ ★ ★ ★</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Weekend specials -->
+    <section class="specials" id="specials" aria-labelledby="specialsTitle">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Made for the weekend</p>
+            <h2 id="specialsTitle">The plates everyone comes back for.</h2>
+          </div>
+          <p class="section-head-sub">Only on Saturday and Sunday — come hungry, or let us deliver straight to your door in Ho.</p>
+        </div>
+
+        <div class="special-grid">
+          <article class="special-card reveal">
+            <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="A hearty bowl of soup with tender meat" loading="lazy" width="900" height="700" />
+            <div class="special-overlay">
+              <span class="special-tag">Sat &amp; Sun only</span>
+              <h3>Weekend Fufu &amp; Light Soup</h3>
+              <p>Soft fufu with goat or chicken light soup, pepper and a generous serving of love.</p>
+              <div class="special-bottom">
+                <span class="special-price">From GHS 65</span>
+                <button type="button" class="btn btn-light btn-sm" data-add data-name="Weekend Fufu with Goat / Chicken Light Soup" data-price="65">Add to Order</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="special-card reveal">
+            <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="Grilled fish served on a plate" loading="lazy" width="900" height="700" />
+            <div class="special-overlay">
+              <span class="special-tag">Grilled to order</span>
+              <h3>Banku &amp; Grilled Tilapia</h3>
+              <p>Smoky tilapia, hot pepper and fresh banku — the Ho weekend classic, done right.</p>
+              <div class="special-bottom">
+                <span class="special-price">GHS 75</span>
+                <button type="button" class="btn btn-light btn-sm" data-add data-name="Banku & Grilled Tilapia with Hot Pepper" data-price="75">Add to Order</button>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="specials-cta reveal">
+          <p>Looking for something else? Pizza, shawarma, salads and more are waiting.</p>
+          <a class="link-arrow" href="#menu">See the full menu <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu -->
+    <section class="menu-section" id="menu" aria-labelledby="menuTitle">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Our menu</p>
+            <h2 id="menuTitle">Something for every craving.</h2>
+          </div>
+          <p class="section-head-sub">Tap a category, add your favourites, then send your order straight to us on WhatsApp.</p>
+        </div>
+
+        <div class="menu-toolbar reveal">
+          <div class="tabs" role="tablist" aria-label="Menu categories">
+            <button class="tab is-active" type="button" role="tab" aria-selected="true" data-filter="all">All Dishes</button>
+            <button class="tab" type="button" role="tab" aria-selected="false" data-filter="classics">Ghanaian Classics</button>
+            <button class="tab" type="button" role="tab" aria-selected="false" data-filter="pizza">Pizza &amp; Shawarma</button>
+            <button class="tab" type="button" role="tab" aria-selected="false" data-filter="salads">Salads &amp; Sides</button>
+          </div>
+          <p class="result-count" id="resultCount" aria-live="polite">8 dishes</p>
+        </div>
+
+        <div class="menu-grid" id="menuGrid">
+          <article class="food-card" data-menu-item data-category="classics" data-name="Weekend Fufu with Goat / Chicken Light Soup" data-price="65">
+            <div class="food-image">
+              <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Fufu and rich light soup with meat" loading="lazy" width="800" height="600" />
+              <span class="food-tag">Weekend favourite</span>
+            </div>
+            <div class="food-body">
+              <p class="food-cat">Ghanaian Classic</p>
+              <h3>Weekend Fufu with Goat / Chicken Light Soup</h3>
+              <p class="food-desc">Soft pounded cassava with a deeply spiced light soup, tender goat or chicken and a fresh pepper garnish.</p>
+              <div class="food-foot">
+                <p class="price">GHS 65</p>
+                <button class="add-btn" type="button" data-add>+ Add to Order</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="food-card" data-menu-item data-category="classics" data-name="Banku & Grilled Tilapia with Hot Pepper" data-price="75">
+            <div class="food-image">
+              <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Grilled tilapia with pepper and banku" loading="lazy" width="800" height="600" />
+              <span class="food-tag">House special</span>
+            </div>
+            <div class="food-body">
+              <p class="food-cat">Ghanaian Classic</p>
+              <h3>Banku &amp; Grilled Tilapia with Hot Pepper</h3>
+              <p class="food-desc">Fermented corn-and-cassava banku paired with smoky grilled tilapia and our house hot pepper sauce.</p>
+              <div class="food-foot">
+                <p class="price">GHS 75</p>
+                <button class="add-btn" type="button" data-add>+ Add to Order</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="food-card" data-menu-item data-category="classics" data-name="Traditional Okro Soup with Assorted Meat & Banku" data-price="60">
+            <div class="food-image">
+              <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="A rich bowl of traditional soup" loading="lazy" width="800" height="600" />
+            </div>
+            <div class="food-body">
+              <p class="food-cat">Ghanaian Classic</p>
+              <h3>Traditional Okro Soup with Assorted Meat &amp; Banku</h3>
+              <p class="food-desc">A rich okro pot loaded with assorted meat and smoked fish, served with soft banku on the side.</p>
+              <div class="food-foot">
+                <p class="price">GHS 60</p>
+                <button class="add-btn" type="button" data-add>+ Add to Order</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="food-card" data-menu-item data-category="pizza" data-name="Four Seasons Pizza (Beef, Chicken, Veggies, Olives)" data-price="110">
+            <div class="food-image">
+              <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Four Seasons pizza with assorted toppings" loading="lazy" width="800" height="600" />
+            </div>
+            <div class="food-body">
+              <p class="food-cat">Pizza</p>
+              <h3>Four Seasons Pizza</h3>
+              <p class="food-desc">Beef, chicken, fresh veggies and olives on a crisp hand-stretched base with molten cheese.</p>
+              <div class="food-foot">
+                <p class="price">GHS 110</p>
+                <button class="add-btn" type="button" data-add>+ Add to Order</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="food-card" data-menu-item data-category="pizza" data-name="Assorted Meat & Sausage Pizza" data-price="120">
+            <div class="food-image">
+              <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Pizza topped with assorted meats and sausage" loading="lazy" width="800" height="600" />
+            </div>
+            <div class="food-body">
+              <p class="food-cat">Pizza</p>
+              <h3>Assorted Meat &amp; Sausage Pizza</h3>
+              <p class="food-desc">A generous mix of seasoned meats and sausages over our tomato base and a golden cheese finish.</p>
+              <div class="food-foot">
+                <p class="price">GHS 120</p>
+                <button class="add-btn" type="button" data-add>+ Add to Order</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="food-card" data-menu-item data-category="pizza" data-name="Assorted Shawarma with French Fries" data-price="55">
+            <div class="food-image">
+              <img src="https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Shawarma wrap with french fries" loading="lazy" width="800" height="600" />
+              <span class="food-tag">Quick bite</span>
+            </div>
+            <div class="food-body">
+              <p class="food-cat">Shawarma</p>
+              <h3>Assorted Shawarma with French Fries</h3>
+              <p class="food-desc">Warm flatbread wrapped around spiced assorted meats, crisp veggies and garlic sauce, with fries.</p>
+              <div class="food-foot">
+                <p class="price">GHS 55</p>
+                <button class="add-btn" type="button" data-add>+ Add to Order</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="food-card" data-menu-item data-category="salads" data-name="Assorted Ghanaian Salad" data-price="45">
+            <div class="food-image">
+              <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="A fresh, colourful assorted salad bowl" loading="lazy" width="800" height="600" />
+            </div>
+            <div class="food-body">
+              <p class="food-cat">Salads &amp; Sides</p>
+              <h3>Assorted Ghanaian Salad</h3>
+              <p class="food-desc">Crisp garden greens, tomatoes, avocado and our house dressing — light, bright and refreshing.</p>
+              <div class="food-foot">
+                <p class="price">GHS 45</p>
+                <button class="add-btn" type="button" data-add>+ Add to Order</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="food-card" data-menu-item data-category="classics" data-name="Jollof Rice & Spicy Grilled Chicken" data-price="65">
+            <div class="food-image">
+              <img src="https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Smoky jollof rice served with grilled chicken" loading="lazy" width="800" height="600" />
+              <span class="food-tag">Crowd pleaser</span>
+            </div>
+            <div class="food-body">
+              <p class="food-cat">Ghanaian Classic</p>
+              <h3>Jollof Rice &amp; Spicy Grilled Chicken</h3>
+              <p class="food-desc">Smoky party-style jollof with charred, spiced grilled chicken and a fresh side salad.</p>
+              <div class="food-foot">
+                <p class="price">GHS 65</p>
+                <button class="add-btn" type="button" data-add>+ Add to Order</button>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <p class="menu-note reveal">Prices in Ghana Cedis (GHS). Any special requests? Add a note in your WhatsApp order — we'll do our best to accommodate.</p>
+      </div>
+    </section>
+
+    <!-- Catering & tables -->
+    <section class="catering" id="catering" aria-labelledby="cateringTitle">
+      <div class="container catering-grid">
+        <div class="catering-copy reveal">
+          <p class="eyebrow eyebrow-light">Catering &amp; tables</p>
+          <h2 id="cateringTitle">Good food, made for your table.</h2>
+          <p class="catering-lead">Hosting a party, a team lunch or simply craving a proper sit-down meal? Tell us what you have in mind and we'll make it happen — fresh, flavourful and right on time.</p>
+
+          <ul class="feature-list">
+            <li><span aria-hidden="true">✓</span> Table reservations for individuals &amp; groups</li>
+            <li><span aria-hidden="true">✓</span> Event catering for parties and offices</li>
+            <li><span aria-hidden="true">✓</span> Custom menus &amp; generous party portions</li>
+          </ul>
+
+          <div class="catering-image">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="Warm restaurant dining room ready for guests" loading="lazy" width="1000" height="700" />
+            <span class="catering-image-note">Eat in. Stay a while.</span>
+          </div>
+        </div>
+
+        <div class="booking-card reveal">
+          <div class="booking-head">
+            <span class="booking-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M7 3v3M17 3v3M4 9h16M5 5h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Z"/></svg>
+            </span>
+            <div>
+              <h3>Quick Table / Catering Inquiry</h3>
+              <p>Send the details — we'll reply on WhatsApp.</p>
+            </div>
+          </div>
+
+          <form id="bookingForm" novalidate>
+            <div class="field">
+              <label for="bookName">Your name</label>
+              <input id="bookName" name="name" type="text" placeholder="e.g. Ama Mensah" autocomplete="name" required />
+            </div>
+
+            <div class="field-row">
+              <div class="field">
+                <label for="bookDate">Date</label>
+                <input id="bookDate" name="date" type="date" required />
+              </div>
+              <div class="field">
+                <label for="bookGuests">Guests</label>
+                <input id="bookGuests" name="guests" type="number" min="1" max="500" placeholder="e.g. 12" required />
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="bookType">What is this for?</label>
+              <select id="bookType" name="type">
+                <option value="Table reservation">Table reservation</option>
+                <option value="Event catering">Event catering</option>
+                <option value="Both table & catering">Both table &amp; catering</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="bookNote">Event / dining note</label>
+              <textarea id="bookNote" name="note" rows="4" placeholder="Tell us about the occasion, preferred dishes, time, or anything else..."></textarea>
+            </div>
+
+            <button class="btn btn-primary btn-block" type="submit">
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="btn-icon"><path d="M20 11.5a8 8 0 0 1-11.6 7.1L4 20l1.4-4.4A8 8 0 1 1 20 11.5Z"/></svg>
+              Send Inquiry on WhatsApp
+            </button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location -->
+    <section class="location" id="location" aria-labelledby="locationTitle">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Find us</p>
+            <h2 id="locationTitle">Right here in Ho.</h2>
+          </div>
+          <p class="section-head-sub">Easy to find, easy to love. Come by for a meal or call ahead for your order.</p>
+        </div>
+
+        <div class="location-grid">
+          <div class="location-card reveal">
+            <div class="location-row">
+              <span class="location-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              </span>
+              <div>
+                <h3>Our address</h3>
+                <p>Alaye Street, Ho, Volta Region, Ghana</p>
+                <a class="link-arrow small" href="https://www.google.com/maps/search/?api=1&query=Alaye+Street%2C+Ho%2C+Volta+Region%2C+Ghana" target="_blank" rel="noopener noreferrer">Get directions <span aria-hidden="true">→</span></a>
+              </div>
+            </div>
+
+            <div class="location-row">
+              <span class="location-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+              </span>
+              <div>
+                <h3>Opening hours</h3>
+                <p><strong>Tuesday – Sunday:</strong> 9:30 AM – 10:00 PM</p>
+                <p class="closed-note">Closed Mondays</p>
+              </div>
+            </div>
+
+            <div class="location-row">
+              <span class="location-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg>
+              </span>
+              <div>
+                <h3>Order / Reservations</h3>
+                <p><a href="tel:+233553576121">055 357 6121</a></p>
+                <p class="hint">WhatsApp available for orders and table bookings.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="map-card reveal" aria-label="Map illustration showing Alaye Street, Ho">
+            <div class="map-grid" aria-hidden="true"></div>
+            <div class="map-road map-road-one" aria-hidden="true"></div>
+            <div class="map-road map-road-two" aria-hidden="true"></div>
+            <div class="map-pin" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            </div>
+            <div class="map-label">
+              <span class="map-label-dot" aria-hidden="true"></span>
+              <div>
+                <strong>ESTATE KITCHEN</strong>
+                <span>Alaye Street, Ho · Volta Region</span>
+              </div>
+            </div>
+            <span class="map-coord" aria-hidden="true">GH · VOLTA REGION</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="logo" href="#top" aria-label="Estate Kitchen home">
+            <span class="logo-mark" aria-hidden="true">
+              <svg viewBox="0 0 32 32"><path d="M5 14 16 5l11 9"/><path d="M8 13v13h16V13"/><path d="M13 26v-7h6v7"/></svg>
+            </span>
+            <span class="logo-text">ESTATE <span>KITCHEN</span></span>
+          </a>
+          <p>Authentic Ghanaian flavours and continental favourites, made fresh on Alaye Street, Ho.</p>
+        </div>
+
+        <div class="footer-col">
+          <h3>Explore</h3>
+          <a href="#menu">Our Menu</a>
+          <a href="#specials">Weekend Specials</a>
+          <a href="#catering">Catering &amp; Tables</a>
+          <a href="#location">Location &amp; Hours</a>
+        </div>
+
+        <div class="footer-col">
+          <h3>Visit &amp; order</h3>
+          <p>Alaye Street, Ho<br />Volta Region, Ghana</p>
+          <p>Tue–Sun · 9:30 AM – 10:00 PM<br />Closed Mondays</p>
+          <a href="tel:+233553576121">055 357 6121</a>
+        </div>
+
+        <div class="footer-col">
+          <h3>Order anytime</h3>
+          <p>Place your order on WhatsApp — we'll confirm and get it cooking.</p>
+          <a class="footer-wa" href="https://wa.me/233553576121" target="_blank" rel="noopener noreferrer">Chat with us →</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year">2026</span> Estate Kitchen. All rights reserved.</p>
+        <p>Made fresh in Ho, Ghana.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp chat -->
+  <a class="floating-wa" href="https://wa.me/233553576121?text=Hello%20Estate%20Kitchen%2C%20I%27d%20like%20to%20ask%20about%20your%20menu." target="_blank" rel="noopener noreferrer" aria-label="Chat with Estate Kitchen on WhatsApp">
+    <span class="wa-pulse" aria-hidden="true"></span>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.5a8 8 0 0 1-11.6 7.1L4 20l1.4-4.4A8 8 0 1 1 20 11.5Z"/><path d="M9 8.5c.3-.4.6-.4 1-.4h.7c.2 0 .5 0 .7.5l.8 1.9c.1.3 0 .5-.2.7l-.5.6c.2.5.6 1 1.1 1.4.4.4.9.6 1.4.7.3 0 .5 0 .7-.2l.9-.9c.2-.2.4-.2.6-.1l1.8.9c.3.1.4.3.4.6 0 1.4-1.3 2.8-4.2 2.4a8.8 8.8 0 0 1-3.8-1.8 8.4 8.4 0 0 1-2.8-3.7c-.3-.9-.3-1.9.2-2.7Z"/></svg>
+  </a>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <span class="toast-check" aria-hidden="true">✓</span>
+    <span id="toastText">Added to your order bag</span>
+    <button type="button" id="toastView">View bag</button>
+  </div>
+
+  <!-- Cart drawer -->
+  <div class="drawer-overlay" id="drawerOverlay" tabindex="-1" aria-hidden="true"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true" aria-label="Your order bag">
+    <div class="drawer-head">
+      <div>
+        <p class="drawer-eyebrow">Estate Kitchen · Ho</p>
+        <h2>Your Order Bag</h2>
+      </div>
+      <button class="icon-btn" id="closeDrawer" type="button" aria-label="Close order bag">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+
+    <div class="drawer-body">
+      <div class="empty-cart" id="emptyCart">
+        <span class="empty-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M6 8h12l1 12H5L6 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg>
+        </span>
+        <h3>Your bag is empty</h3>
+        <p>Add something delicious from the menu and it will appear here.</p>
+        <button class="btn btn-outline btn-sm" type="button" id="emptyBrowse">Browse the menu</button>
+      </div>
+
+      <div class="cart-items" id="cartItems" aria-live="polite"></div>
+
+      <div class="order-options" id="orderOptions">
+        <h3>How would you like your order?</h3>
+        <div class="type-grid" role="radiogroup" aria-label="Order type">
+          <label class="type-option">
+            <input type="radio" name="orderType" value="Ho Delivery" checked />
+            <span class="type-emoji" aria-hidden="true">🛵</span>
+            <span>Ho Delivery</span>
+          </label>
+          <label class="type-option">
+            <input type="radio" name="orderType" value="Pickup at Alaye St" />
+            <span class="type-emoji" aria-hidden="true">🥡</span>
+            <span>Pickup at Alaye St</span>
+          </label>
+          <label class="type-option">
+            <input type="radio" name="orderType" value="Dine-In" />
+            <span class="type-emoji" aria-hidden="true">🍽️</span>
+            <span>Dine-In</span>
+          </label>
+        </div>
+
+        <label class="field-label" for="landmarkInput" id="landmarkLabel">Delivery landmark / your name</label>
+        <input class="text-input" id="landmarkInput" type="text" placeholder="e.g. Near Ho Police Station, behind the market" autocomplete="off" />
+        <p class="field-hint" id="landmarkHint">Helps us find you quickly in Ho.</p>
+      </div>
+    </div>
+
+    <div class="drawer-foot">
+      <div class="total-row">
+        <span>Total</span>
+        <strong id="cartTotal">GHS 0.00</strong>
+      </div>
+      <p class="drawer-note">No online payment — confirm and pay on delivery or at the counter.</p>
+      <button class="btn btn-primary btn-block" id="checkoutBtn" type="button" disabled>
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="btn-icon"><path d="M20 11.5a8 8 0 0 1-11.6 7.1L4 20l1.4-4.4A8 8 0 1 1 20 11.5Z"/></svg>
+        Send Order on WhatsApp
+      </button>
+    </div>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
